@@ -30,7 +30,7 @@ async function fetchJson(request) {
   }
 
   async function displayCharacters() {
-    const request = "https://dragonball-api.com/api/characters?limit=5"; 
+    const request = "https://dragonball-api.com/api/characters?limit=58"; 
     const characters = document.getElementById("character"); 
     const charactersData = await fetchJson(request); 
 
