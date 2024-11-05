@@ -1,3 +1,11 @@
+:root{
+  --purple: #222839;
+  --black: #171821;
+  --white: #e7e5e8;
+  --orange: #fbbc42;
+  --grey: #273336;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +13,10 @@
 }
 
 body {
-  background-color: #01080a;
+  background-color: var(--purple); 
+  background-repeat: repeat;  
+  background-size: cover;    
+  height: 100vh;    
 }
 
 main {
@@ -22,7 +33,7 @@ header {
   width: 100%;
   height: 30px;
   padding: 2.5rem;
-  background-color: #171821;
+  background-color: var(--black);
   position: fixed;
   z-index: 100;
   top: 0;
@@ -40,16 +51,16 @@ nav {
 nav a {
   text-decoration: none;
   transition: transform 0.3s ease, color 0.3s ease;
-  color: rgb(255, 255, 255);
+  color: var(--white);
 }
 
 nav a:hover {
   transform: scale(1.2);
-  color: #fbbc42;
+  color: var(--orange);
 }
 
 footer {
-  background-color: #ff6f00;
+  background-color: var(--black);
   width: 100%;
   padding: 3rem;
   text-align: center;
@@ -64,6 +75,7 @@ footer {
 
 p {
   margin-top: 10px;
+  color: var(--orange);
 }
 
 #img {
@@ -75,6 +87,8 @@ p {
 .banner {
   margin-top: 80px;
   background: fixed;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);  
+  position: relative; 
 }
 
 .banner img {
@@ -103,7 +117,9 @@ p {
 .card {
   display: flex;
   align-items: center;
-  background-color: #e7e5e8;
+  background-color: var(--white);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.9); 
+  border-radius: 15px; 
 }
 
 .card img {
@@ -120,21 +136,22 @@ p {
 }
 
 .card-body {
-  background-color: rgb(39, 51, 54);
+  background-color: var(--grey);
   padding: 1rem;
   display: flex;
   flex-direction: column;
   width: 100%;
+  border-radius: 15px; 
 }
 
 .card-text {
-  color: #fbbc42;
+  color: var(--orange);
 }
 
 .card-title {
   font-weight: bold;
   font-size: 30px;
-  color: #e7e5e8;
+  color: var(--white);
 }
 
 .itemsFooter {
@@ -158,11 +175,8 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-#imgPlanets {
+  border-radius: 15px; 
   transition: transform 0.5s ease;
-  cursor: pointer;
 }
 
 #imgPlanets:hover {
