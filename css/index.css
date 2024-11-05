@@ -47,6 +47,24 @@ nav a:hover {
   color: #fbbc42;
 }
 
+footer {
+  background-color: #e76a24;
+  width: 100%;              
+  padding: 3rem;                
+  text-align: center;       
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  gap: 50px; 
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p {
+  margin-top: 10px;
+ }
+
 #img {
   width: 100px;
   height: 50px;
@@ -109,11 +127,19 @@ nav a:hover {
   color: #e7e5e8;
 }
 
-footer {
-  background-color: #e76a24;
-  width: 100%;              
-  padding: 3rem;                
-  text-align: center;       
-  margin-top: 30px;
+.itemsFooter{
+  gap: 20px; 
+  margin-bottom: 10px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
 
+.itemsFooter i {
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.itemsFooter i:hover {
+  transform: scale(1.2);
 }
