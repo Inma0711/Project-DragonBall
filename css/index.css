@@ -1,4 +1,4 @@
-:root{
+:root {
   --purple: #222839;
   --black: #171821;
   --white: #e7e5e8;
@@ -13,10 +13,10 @@
 }
 
 body {
-  background-color: var(--purple); 
-  background-repeat: repeat;  
-  background-size: cover;    
-  height: 100vh;    
+  background-color: var(--purple);
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 main {
@@ -87,8 +87,8 @@ p {
 .banner {
   margin-top: 80px;
   background: fixed;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);  
-  position: relative; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+  position: relative;
 }
 
 .banner img {
@@ -118,8 +118,8 @@ p {
   display: flex;
   align-items: center;
   background-color: var(--white);
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9); 
-  border-radius: 15px; 
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
+  border-radius: 15px;
 }
 
 .card img {
@@ -144,7 +144,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 100%;
-  border-radius: 15px; 
+  border-radius: 15px;
 }
 
 .card-text {
@@ -180,7 +180,7 @@ p {
   min-height: 250px;
   max-height: 250px;
   object-fit: cover;
-  border-radius: 15px; 
+  border-radius: 15px;
   transition: transform 0.5s ease;
 }
 
