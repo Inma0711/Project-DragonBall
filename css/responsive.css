@@ -1,0 +1,13 @@
+@media (max-width : 810px){
+    .banner img {
+        height: 100%;
+    }
+}
+
+@media (max-width : 412px) {
+    nav{
+        gap: 10%;
+        margin-left: 18%;
+    }
+   
+}
